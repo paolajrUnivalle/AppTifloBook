@@ -27,37 +27,12 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listDeviceBluetooth"
-        android:visibility="visible"
-        >
-    </ListView>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:id="@+id/viewConn"
-        android:visibility="gone">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/edtTx"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp">
-        </EditText>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonSend"
-            android:text="Send A"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp">
-        </Button>
+        android:visibility="visible">
 
         <TextView
             android:layout_width="match_parent"
